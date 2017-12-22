@@ -118,7 +118,7 @@ section>ul:nth-child(5) li:nth-child(3) i{
 section>ul:nth-child(5) li:nth-child(3) i em{
     font-style: normal;
     text-decoration: line-through;
-    text-decoration-line: line-through;
+   
 }
 section>ul:nth-child(5) li:nth-child(4) i{
     left: .8rem;
