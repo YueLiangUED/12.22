@@ -1,0 +1,188 @@
+html,body{
+    background-color: #ffffff;
+}
+header{
+    margin-bottom: .58rem;
+    width: 7.2rem;
+    height: 4.86rem;
+    background: url("../images/banner.png") center no-repeat;
+    background-size: cover;
+}
+section>div:nth-child(1){
+    width: 7.2rem;
+    height: 5.65rem;
+    background: url("../images/desc.png") center no-repeat;
+    background-size: cover;
+}
+section>a:nth-child(2){
+    display: block;
+    margin: .36rem auto .2rem;
+    width: 5.55rem;
+    height: .7rem;
+    font-size: .34rem;
+    text-align: center;
+    line-height: .7rem;
+    border-radius: 1px;
+    color: #ffffff;
+    background-color: #c61418;
+}
+section>p:nth-child(3){
+    font-size: .33rem;
+    line-height: .84rem;
+    text-align: center;
+    color: #333333;
+}
+section>span:nth-child(4){
+    display: block;
+    margin: 0 auto .37rem;
+    width: .8rem;
+    height: 1px;
+    background-color: #a0a0a0;
+}
+section>ul:nth-child(5) li{
+    position: relative;
+    margin: 0 auto .15rem;
+    width: 5.55rem;
+    height: 1.53rem;
+    border-radius: 1rem;
+    border: 1px solid #f92a44;
+}
+section>ul:nth-child(5) li:last-child{
+    margin-bottom: 0;
+}
+section>ul:nth-child(5) li span{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 1.34rem;
+    height: 1.34rem;
+}
+section>ul:nth-child(5) li:nth-child(1) span{
+    left: .12rem;
+    background: url("../images/icon_1.png") center no-repeat;
+    background-size: cover;
+}
+section>ul:nth-child(5) li:nth-child(2) span{
+    right: .12rem;
+    background: url("../images/icon_2.png") center no-repeat;
+    background-size: cover;
+}
+section>ul:nth-child(5) li:nth-child(3) span{
+    left: .12rem;
+    background: url("../images/icon_4.png") center no-repeat;
+    background-size: cover;
+}
+section>ul:nth-child(5) li:nth-child(4) span{
+    right: .12rem;
+    background: url("../images/icon_3.png") center no-repeat;
+    background-size: cover;
+}
+section>ul:nth-child(5) li p{
+    position: absolute;
+    top: .35rem;
+    font-size: .26rem;
+    line-height: .26rem;
+    color: #333333;
+}
+section>ul:nth-child(5) li:nth-child(1) p,section>ul:nth-child(5) li:nth-child(3) p{
+    right: 1.26rem;
+}
+section>ul:nth-child(5) li:nth-child(2) p{
+    left: 1.12rem;
+}
+section>ul:nth-child(5) li:nth-child(4) p{
+    left: 1.2rem;
+}
+section>ul:nth-child(5) li i{
+    position: absolute;
+    bottom: .33rem;
+    font-style: normal;
+    font-size: .22rem;
+    line-height: .22rem;
+    color: #666666;
+}
+section>ul:nth-child(5) li:nth-child(1) i{
+    line-height: 1.5em;
+    bottom: .2rem;
+    right: .8rem;
+}
+section>ul:nth-child(5) li:nth-child(2) i{
+    left: .76rem;
+}
+section>ul:nth-child(5) li:nth-child(3) i{
+    line-height: 1.5em;
+    bottom: .2rem;
+    right: .4rem;
+}
+section>ul:nth-child(5) li:nth-child(3) i em{
+    font-style: normal;
+    text-decoration: line-through red;
+}
+section>ul:nth-child(5) li:nth-child(4) i{
+    left: .8rem;
+}
+section>p:nth-child(6){
+    font-size: .33rem;
+    text-align: center;
+    line-height: 1.12rem;
+    color: #333333;
+}
+section>div:nth-child(7){
+    margin: 0 auto .2rem;
+    width: .9rem;
+    line-height: .28rem;
+}
+section>div:nth-child(7) a{
+    font-size: .28rem;
+    color: #666666;
+}
+section>div:nth-child(7) span{
+    display: inline-block;
+    width: .18rem;
+    height: .20rem;
+    background: url("../images/sd.png") center no-repeat;
+    background-size: cover;
+}
+section>div:nth-child(7) span.active{
+    width: .2rem;
+    height: .18rem;
+    line-height: .28rem;
+    background: url("../images/su.png") center no-repeat;
+    background-size: cover;
+}
+section footer{
+    display: none;
+    padding: 0 .25rem .3rem;
+}
+section footer h2{
+    font-size: .3rem;
+    line-height: .6rem;
+    color: #f88b00;
+}
+section footer div{
+    margin: 0 auto .2rem;
+    width: 6.42rem;
+    height: 3.56rem;
+    background: url("../images/table.png") center no-repeat;
+    background-size: cover;
+}
+section footer p{
+    margin-bottom: .15rem;
+    font-size: .24rem;
+    text-align: justify;
+    color: #333333;
+}
+section footer p i{
+    font-style: normal;
+    font-size: .24rem;
+    color: #f92a44;
+}
+section footer p a{
+    word-break:break-all;
+    word-wrap:break-word;
+    text-decoration: underline;
+}
+section footer p:last-child{
+    text-align: inherit;
+}
